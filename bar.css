@@ -1,0 +1,15 @@
+.bar-chart {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #ccc;
+    padding: 1px;
+  }
+  
+  .bar {
+    width: 20px; /* Adjust the width of each bar */
+    background-color: #007bff; /* Default color for bars */
+    transition: height 1ms ease; /* Smooth transition animation */
+  }
